@@ -13,6 +13,14 @@
     min-height: 90vh;
     padding: 60px 0 60px 0;
 }
+.hero2 {
+    width: 100%;
+    background-size: cover;    
+    background-image: url(images/aboutimage2.jpg);
+    position: relative;
+    min-height: 90vh;
+    padding: 60px 0 60px 0;
+}
 .hero h2 {
     font-size: 64px;
     font-weight: 700;    
