@@ -40,6 +40,13 @@
     color: white;    
     font-family: 'Roboto', sans-serif;
 }
+.hero2 h2 {
+    font-size: 64px;
+    font-weight: 700;    
+    margin-bottom: 20px;
+    color: white;    
+    font-family: 'Roboto', sans-serif;
+}
 .hero p {
   color:white;
 }
