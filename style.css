@@ -86,3 +86,9 @@ section {
     margin-top: 1em;
     margin-bottom: 1em;
   } 
+  .tablecontainer {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
