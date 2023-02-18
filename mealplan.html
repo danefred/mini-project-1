@@ -8,7 +8,7 @@
 
     <!-- bootstrap css -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     
     <!--Google Fonts-->
@@ -71,35 +71,442 @@
              </div>
         <!--   </div> -->
          </div> 
-         <section id="call-action" class="section2">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
-                  <div class="inner-content">
-                    <h2>Meal Planner</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper
-                        euismod purus, non imperdiet justo ullamcorper quis. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit. Etiam vulputate blandit ullamcorper.
-                        Duis lorem lectus, rutrum eget facilisis ut, efficitur ac nunc. Proin id
-                        tincidunt augue. Sed blandit tellus vel pretium finibus. Etiam lacinia 
-                        varius cursus.
+        
+             <!--heading-->
+      <div class="row text-center">
+        <h1>Meal Planner</h1>
+        <p>Subscribe for a weekly meal plan</p>
+      </div>  
+      <div class="text-center">    
+      <button class="btn btn-secondary disabled" type="submit">Register</button>
+      <button class="btn btn-secondary disabled" type="submit">Sign In</button>      
+      </div>
+      <br>
+      <div class="row text-center">
+        <div class="col-lg-4 text-center" >
+          <b>User:</b> Julies Bee 
+        </div>
+        <div class="col-lg-4 text-center">
+          <b>Week:</b> 3
+          </div>
+        <div class="col-lg-4 text-center">
+        <b>Health Status:</b> Diabetes Mellitus 2
+        </div>
+      </div>
+      <!-- Meal Plan Table-->
+      <div class="tablecontainer">
+      <table class="table table-bordered table-sm table-lg">
+  <thead>
+    <tr class="table-dark">
+      <th scope="col">DAY</th>
+      <th scope="col">BREAKFAST</th>
+      <th scope="col">LUNCH</th>
+      <th scope="col">DINNER</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-warning">
+      <th scope="row">Monday</th>
+      <td>1 cup oatmeal<br>1 tbsp sliced almonds<br>1 tbsp gound flaxseed</td>
+      <td>Turkey Sandwich on <br> 2 slices whole wheat<br> bread, Raw Veggies<br>Hummus dip</td>
+      <td>3 oz grilled salmon<br> 1/2 cup baked potato<br> spinach salad<br>1 cup skim milk</td>
+    </tr>
+    <tr class="table=secondary">
+      <th scope="row">Tuesday</th>
+      <td>Scrambled egg beaters<br>on whole wheat english muffin</td>
+      <td>1 cup bean soup <br>Green salad</td>
+      <td>Chicken or steak stif-fry<br>with plenty of vegetables 1/2 cub brown rice</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">Wednesday</th>
+      <td >1cup oatmeal<br>1 tbsp sliced almonds<br>1 tbsp ground flaxseed</td>
+      <td>1/2 cup tuna fish salad on<br>1 whole tomato<br> 6 oz light yogurt<br>1 fruit</td>
+      <td>3 oz grilled chicken breast<br>1 cup baked acorn squash<br> 1 cup steamed broccoli<br> 1 cup skim milk</td>
 
-                        Donec lacinia, nibh eu mattis viverra, eros tortor porta nunc, at faucibus
-                        erat ligula tincidunt tellus. Vestibulum eu velit ut neque finibus congue. 
-                        Nam pellentesque vestibulum leo nec fringilla. Maecenas eu erat vel lacus 
-                        feugiat viverra. Nullam ornare nisi sed odio sagittis faucibus. Curabitur 
-                        cursus velit ac ullamcorper iaculis. Vestibulum et ullamcorper arcu, non 
-                        aliquam tellus. Quisque at convallis felis. Suspendisse sollicitudin dui 
-                        id fringilla sodales. Praesent aliquet iaculis ex eu placerat. Nulla 
-                        volutpat pellentesque nibh, non feugiat ante feugiat non. Donec id 
-                        tincidunt nisi.ous food choices to make.
-                    </p>                    
-                  </div>
-                </div>
+    </tr>
+    <tr>
+      <th scope="row">Thursday</th>
+      <td >3/4 cup whole grain cereal<br>(or Glucerna cereal)<br>1 cup skim milk</td>
+      <td>1 cup vegetable soup<br>1/2 turkey sandwich on<br>1 whole wheat bread<br>Raw veggies</td>
+      <td>Spaghetti dinner<br> 1 cup spaghetti squash<br>1/2 cup spaghetti sauce<br>Tossed green salad</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">Friday</th>
+      <td>1 cup oatmeal<br>1 tbsp sliced almonds<br>1 tbsp ground flaxseed</td>
+      <td>Low.fat cottage cheese on <br>1 whole tomato<br>4 Ak-Mak crackers<br>1 fruit</td>
+      <td>2 slices thin crust veg pizza<br>Romain lettuce salad</td>
+    </tr>
+    <tr>
+      <th scope="row">Saturday</th>
+      <td >2 slices french toas made<br>frome whole wheat bread<br>Sugar-free maple syrup</td>
+      <td>Large green salad with<br>grilled chicken breast<br>1 cup skim milk<br>1 fruit</td>
+      <td>3 oz pan-seared trout<br>1 cup stir-fried vegetables<br>1/2 cup brown rice</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">Sunday</th>
+      <td >Scrambled Egg Beaters<br>omelet with vegetables<br> 2 slices whole wheat toast<br>Sliced tomatoes</td>
+      <td>Turkey sandwich on<br>2 slices whole wheat bread<br>Raw veggies<br>Hummus dip</td>
+      <td>Chicken and bean burrito with<br>whole wheat low-carb tortilla<br>Salasa or pico de gallo<br>Green salad</td>
+    </tr>
+  </tbody>
+      </table>
+
+      <!--Menu Recipe-->
+      <section id="menu" class="menu">
+        <div class="container">
+  
+          <div class="section-header text-center">
+            <h2>Suggested Recipes</h2>
+            <p>Take Total Control of your Meal</p>
+          </div>
+  
+          <ul class="nav nav-tabs d-flex justify-content-center" role="tablist">
+  
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters" aria-selected="true" role="tab">
+                <h4>Vegetarian</h4>
+              </a>
+            </li><!-- End tab nav item -->
+  
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast" aria-selected="false" tabindex="-1" role="tab">
+                <h4>Pescetarian</h4>
+              </a><!-- End tab nav item -->
+  
+            </li><li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch" aria-selected="false" tabindex="-1" role="tab">
+                <h4>Diabetic</h4>
+              </a>
+            </li><!-- End tab nav item -->
+  
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner" aria-selected="false" tabindex="-1" role="tab">
+                <h4>Hypertensive</h4>
+              </a>
+            </li><!-- End tab nav item -->
+  
+          </ul>
+  
+          <div class="tab-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+  
+            <div class="tab-pane fade active show" id="menu-starters" role="tabpanel">
+  
+              <div class="tab-header text-center">
+                <p>Menu</p>
+                <h3>Vegetarian</h3>
               </div>
-            </div>
-          </section>
+  
+              <div class="row gy-5">
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-1.png" class="glightbox"><img src="images/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Magnam Tiste</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    120 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-2.png" class="glightbox"><img src="images/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Aut Luia</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                   125 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-3.png" class="glightbox"><img src="images/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Est Eligendi</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    115 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-4.png" class="glightbox"><img src="images/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                   120 cala
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-5.png" class="glightbox"><img src="images/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    122 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-6.png" class="glightbox"><img src="images/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Laboriosam Direva</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    130 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+              </div>
+            </div><!-- End Starter Menu Content -->
+  
+            <div class="tab-pane fade" id="menu-breakfast" role="tabpanel">
+  
+              <div class="tab-header text-center">
+                <p>Menu</p>
+                <h3>Pescetarian</h3>
+              </div>
+  
+              <div class="row gy-5">
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-1.png" class="glightbox"><img src="images/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Magnam Tiste</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    122 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-2.png" class="glightbox"><img src="images/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Aut Luia</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    110 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-3.png" class="glightbox"><img src="images/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Est Eligendi</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    130 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-4.png" class="glightbox"><img src="images/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    124 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-5.png" class="glightbox"><img src="images/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    120 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-6.png" class="glightbox"><img src="images/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Laboriosam Direva</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    121 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+              </div>
+            </div><!-- End Breakfast Menu Content -->
+  
+            <div class="tab-pane fade" id="menu-lunch" role="tabpanel">
+  
+              <div class="tab-header text-center">
+                <p>Menu</p>
+                <h3>Diabetic</h3>
+              </div>
+  
+              <div class="row gy-5">
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-1.png" class="glightbox"><img src="images/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Magnam Tiste</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    100 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-2.png" class="glightbox"><img src="images/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Aut Luia</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    118 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href=images/menu-item-3.png" class="glightbox"><img src="images/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Est Eligendi</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    120 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-4.png" class="glightbox"><img src="images/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    119 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-5.png" class="glightbox"><img src="images/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    120 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-6.png" class="glightbox"><img src="images/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Laboriosam Direva</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                   100 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+              </div>
+            </div><!-- End Lunch Menu Content -->
+  
+            <div class="tab-pane fade" id="menu-dinner" role="tabpanel">
+  
+              <div class="tab-header text-center">
+                <p>Menu</p>
+                <h3>Hypertensive</h3>
+              </div>
+  
+              <div class="row gy-5">
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-1.png" class="glightbox"><img src="images/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Magnam Tiste</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    100 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-2.png" class="glightbox"><img src="images/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Aut Luia</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    110 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-3.png" class="glightbox"><img src="images/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Est Eligendi</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    120 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-4.png" class="glightbox"><img src="images/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    122 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-5.png" class="glightbox"><img src="images/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Eos Luibusdam</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    125 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+                <div class="col-lg-4 menu-item">
+                  <a href="images/menu-item-6.png" class="glightbox"><img src="images/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                  <h4>Laboriosam Direva</h4>
+                  <p class="ingredients">
+                    Lorem, deren, trataro, filede, nerada
+                  </p>
+                  <p class="price">
+                    120 cal
+                  </p>
+                </div><!-- Menu Item -->
+  
+              </div>
+            </div><!-- End Dinner Menu Content -->
+  
+          </div>
+  
+        </div>
+      </section>
+      <!--Menu Recipe end-->
+      </div>
 
          
           <!--Footer-->
