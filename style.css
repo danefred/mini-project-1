@@ -99,3 +99,7 @@ section {
     padding-right: 1em;
     padding-bottom: 1em;
   }
+  a:link {   
+    text-decoration: none;
+  }
+ 
